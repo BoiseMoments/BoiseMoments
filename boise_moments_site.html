@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Boise Moments</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+            text-align: center;
+        }
+        header {
+            background-color: #333;
+            color: white;
+            padding: 20px 0;
+            font-size: 24px;
+        }
+        .container {
+            max-width: 800px;
+            margin: 20px auto;
+            background: white;
+            padding: 20px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        img {
+            width: 100%;
+            height: auto;
+            border-radius: 5px;
+        }
+        .gallery {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+            gap: 10px;
+            padding: 10px;
+        }
+        .btn {
+            display: inline-block;
+            background: #333;
+            color: white;
+            padding: 10px 20px;
+            margin-top: 10px;
+            text-decoration: none;
+            border-radius: 5px;
+        }
+        .footer {
+            margin-top: 20px;
+            padding: 20px;
+            background: #333;
+            color: white;
+        }
+        .footer img {
+            width: 40px;
+            height: 40px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        Boise Moments 📸
+    </header>
+    <div class="container">
+        <h2>Capturing the unposed, unscripted, and unforgettable moments of Boise</h2>
+        <p>Real people • Real stories • Real life</p>
+        <a href="#gallery" class="btn">View Gallery</a>
+    </div>
+    
+    <div id="gallery" class="gallery">
+        <img src="photo1.jpg" alt="Candid Boise Moment 1">
+        <img src="photo2.jpg" alt="Candid Boise Moment 2">
+        <img src="photo3.jpg" alt="Candid Boise Moment 3">
+    </div>
+    
+    <div class="container">
+        <h3>Spotted Yourself?</h3>
+        <p>DM us on Instagram @BoiseMoments or contact us to get your photo.</p>
+        <a href="https://instagram.com/boisemoments" class="btn">Find Your Pic</a>
+    </div>
+    
+    <div class="footer">
+        <p>Follow us on Instagram</p>
+        <a href="https://instagram.com/boisemoments" target="_blank">
+            <img src="instagram-logo.png" alt="Instagram">
+        </a>
+    </div>
+</body>
+</html>
